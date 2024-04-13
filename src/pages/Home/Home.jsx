@@ -2,11 +2,13 @@ import Header from "../Shared/Header/Header";
 import LeftSideNav from "../Shared/LeftSideNav/LeftSideNav";
 import Navbar from "../Shared/Navbar/Navbar";
 import RightSideNav from "../Shared/RightSideNav/RightSideNav";
+import BrakingNews from "./BrakingNews/BrakingNews";
 
 const Home = () => {
     return (
         <div>
             <Header></Header>
+            <BrakingNews></BrakingNews>
             <Navbar></Navbar>
             <h4 className="text-3xl font-poppins font-bold">Home page</h4>
             <div className="grid md:grid-cols-4 gap-6">
